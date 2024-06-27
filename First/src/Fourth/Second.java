@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Second {
 		public static void main(String[] args) {
-			System.out.println("Enetr the two integers : ");
+			System.out.println("Enter the three integers : ");
 			Scanner a=new Scanner(System.in);
 			int b=a.nextInt();
 			Scanner c=new Scanner(System.in);

@@ -3,7 +3,7 @@ package Fourth;
 public class Twentyeighth {
 
 	public static void main(String[] args) {
-		int i,c,l;
+	/*	int i,c,l;
 		for(i=1;i<=20;i++) {
 			if(i>=8) {
 				if (i%2==0 | i%3==0 | i%5==0 | i%7==0) {
@@ -43,4 +43,17 @@ public class Twentyeighth {
 
 	}
 
-}
+}*/
+		int n=21;
+		for(int i=1;i<=n;i++) {
+			for(int j=1;j<=n;j++) {
+				if(j==2 && i==3) {
+					System.out.println("Exception");
+				}
+				else {
+					System.out.println("i = "+i+"  j = "+j);
+				}
+
+			}
+		}
+	}}

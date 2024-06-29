@@ -3,7 +3,7 @@ package Fourth;
 public class Twentysixth {
 
 	public static void main(String[] args) {
-		int i,c,l;
+		/*int i,c,l;
 		for(i=1;i<=20;i++) {
 			if(i>=8) {
 				if (i%2==0 | i%3==0 | i%5==0 | i%7==0) {
@@ -41,6 +41,24 @@ public class Twentysixth {
 			}
 	}
 	}
-}
+}*/
+		for(int i=1;i<=20;i++) {
+			int c=0;
+			if(i==2) {
+				continue;
+			}
+			for(int j=2;j<i;j++) {
+				if(i%j==0) {
+					c+=1;
+			}}
+			if(c==0) {
+				System.out.println("Prime number "+i);
+			}
+			else {
+				continue;
+			}
+		}
+	}}
+
 
 

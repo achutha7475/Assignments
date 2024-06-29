@@ -11,9 +11,11 @@ public class Twentysecond {
 		System.out.println("Enter your nationality");
 		Scanner d=new Scanner(System.in);
 		String b=d.nextLine();
-		if(a>=18 && b=="Indian") {
+		if(a>=18) {
+			if(b=="India") {
+			}
 			System.out.println("Eligible for vote.");
-		}
+	}
 		else {
 			System.out.println("Not eligible for vote.");
 
@@ -21,4 +23,5 @@ public class Twentysecond {
 
 }
 }
+
 

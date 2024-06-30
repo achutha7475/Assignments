@@ -3,46 +3,40 @@ package Third;
 public class Thirteenth {
 
 	public static void main(String[] args) {
-		int a=1234,b,c,d,e,f,g,h,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y;
-		if(a>1000 && a%1000==0)
+		int a=2345,b,c;
 			b=a/1000;
-			System.out.println("Thousand rupee notes required: "+b);
-			a=b*1000;
-			c=a%1000;}
-		else if(c>500 && c%500==0) {
-			b=c/500;
-			System.out.println("Five hundred rupee notes required: "+b);
-			d=b*500;
-			e=d%500;}
-			f=e/100;
-			System.out.println("Hundred rupee notes rquired: "+f);
-			g=f*100;
-			h=g%100;
-			j=h/50;
-			System.out.println("Fifty rupee notes required: "+j);
-			k=j*50;
-			l=k%50;
-			m=l/20;
-			System.out.println("Twenty rupee notes required: "+m);
-			n=m*20;
-			o=n%20;
-			p=o/10;
-			System.out.println("Ten rupee notes required: "+p);
-			q=p*10;
-			r=q%10;
-			s=r/5;
-			System.out.println("Five rupee coins required: "+s);
-			t=s*5;
-			u=t%5;
-			v=u/2;
-			System.out.println("Two rupee coins required: "+v);
-			w=v*2;
-			x=w%2;
-			y=x/1;
-			System.out.println("One rupee coins required: "+y);
-			
-			
-	}
-}
-
+			System.out.println("Thousand rupee notes required are "+b);
+			c=a/500;
+			System.out.println("Five hundred rupee notes required are "+c);
+			c=b*500;
+			a=c%500;
+			b=a/100;
+			System.out.println("Hundred rupee notes required are "+b);
+			c=b*100;
+			a=c%100;
+			b=a/50;
+			System.out.println("Fifty rupee notes required are "+b);
+			c=b*50;
+			a=c%50;
+			b=a/20;
+			System.out.println("Twenty rupee notes required are "+b);
+			c=b*20;
+			a=c%20;
+			b=a/10;
+			System.out.println("Ten rupee notes required are "+b);
+			c=b*10;
+			a=c%10;
+			b=a/5;
+			System.out.println("Five rupee coins required are "+b);
+			c=b*5;
+			a=c%5;
+			b=a/2;
+			System.out.println("Two rupee coins required are "+b);
+			c=b*2;
+			a=c%2;
+			b=a/1;
+			System.out.println("One rupee coins required are "+b);
+			c=b*1;
+			a=c%1;
+}}
 		

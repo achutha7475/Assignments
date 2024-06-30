@@ -6,11 +6,9 @@ public class Twentyfourth {
 		int a=10,b,c,d=20;
 		b=a*a;
 		c=a*4;
-		System.out.println("Area "+b+">"+" Perimeter "+c);
-		b=a*d;
-		c=2*(a+d);
-		System.out.println("Area "+b+">"+" Perimeter "+c);
+		if(b>c) {
 		System.out.println("Area is greater than primeter");
 	}
+		else {System.out.println("Perimeter is greater than area.");
 
-}
+}}}
